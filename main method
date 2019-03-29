@@ -1,0 +1,31 @@
+package com.ganesh.java;
+
+public class BasicProgram
+{
+
+int x,y;
+
+
+public static void main(String[] args)
+
+{
+
+BasicProgram obj= new BasicProgram();
+obj.sum(10,20);
+
+
+
+}
+
+
+public void sum(int a, int b)
+{
+
+
+System.out.println("Addition of two number is ");
+System.out.println(a+b);
+
+
+}
+
+}
