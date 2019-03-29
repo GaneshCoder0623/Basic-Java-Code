@@ -1,6 +1,6 @@
 package com.ganesh.java;
 
-public class BasicProgram
+public class BasicProgram implements Loop
 {
 
 int x,y;
@@ -14,6 +14,9 @@ BasicProgram obj= new BasicProgram();
 obj.sum(10,20);
 
 BasicProgram.sub(30,10);
+
+Loop l= ()-> System.out.println("This is the implementation of Loop Interface");
+l.method();
 
 }
 
@@ -35,6 +38,14 @@ System.out.println("Subtraction of two numbers is");
 System.out.println(a-b);
 
 }
+
+
+}
+
+interface Loop
+{
+
+public abstract method();
 
 
 }
