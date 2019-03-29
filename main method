@@ -38,3 +38,11 @@ System.out.println(a-b);
 
 
 }
+
+interface Loop
+{
+
+public abstract method();
+
+
+}
