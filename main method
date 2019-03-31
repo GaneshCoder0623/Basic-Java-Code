@@ -1,6 +1,6 @@
 package com.ganesh.java;
 
-public class BasicProgram implements Loop
+public class BasicProgram extends ChildClass implements Loop
 {
 
 int x,y;
@@ -17,6 +17,10 @@ BasicProgram.sub(30,10);
 
 Loop l= ()-> System.out.println("This is the implementation of Loop Interface");
 l.method();
+
+obj.overrideMethod();
+
+
 
 }
 
@@ -38,6 +42,11 @@ System.out.println("Subtraction of two numbers is");
 System.out.println(a-b);
 
 }
+public void overrideMethod()
+{
+
+
+System.out.println("Parent Class Basic Program Method");}
 
 
 }
