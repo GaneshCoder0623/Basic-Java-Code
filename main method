@@ -49,3 +49,14 @@ public abstract method();
 
 
 }
+
+class ChildClass
+{
+public void overrideMethod()
+{
+System.out.pritln("Over riding Method");
+
+}
+
+
+}
